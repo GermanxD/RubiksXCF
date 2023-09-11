@@ -15,25 +15,11 @@ body {
 }
 
 .background-img {
-    box-sizing: border-box;
-    position: absolute;
-    background-size: cover;
-    filter: brightness(50%);
-    /*position: fixed;*/
-    /*z-index: -100;*/
-    flex-direction: column;
     display: flex;
-    
-
-}
-
-.fondo {
-    display: flex;
-    background-color: #181414;
-    width: 100%;
-    height: 1000px;
-    box-sizing: border-box;
-
+    background-color: #272727;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 /* Boton para scroll hacia abajo*/
